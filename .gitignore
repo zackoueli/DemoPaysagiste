@@ -36,6 +36,19 @@ yarn-error.log*
 # vercel
 .vercel
 
+# database
+dev.db
+dev.db-shm
+dev.db-wal
+
+# uploads
+/public/uploads/
+
+# firebase service account
+*-firebase-adminsdk-*.json
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel
